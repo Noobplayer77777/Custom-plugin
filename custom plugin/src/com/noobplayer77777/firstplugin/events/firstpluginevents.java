@@ -21,23 +21,9 @@ public class firstpluginevents implements Listener {
         int y = player.getLocation().getBlockY();
         int z = player.getLocation().getBlockZ();
              Material block = player.getWorld().getBlockAt(x,y-1,z).getType();
-        if(block == Material.NETHERITE_BLOCK) {
-            player.sendMessage(ChatColor.DARK_PURPLE + "YOU HAVE BECOME THE RICHEST PLAYER ON THE SERVER BECAUSE YOU ARE WALKING ON NETHERITE BLOCK");
-        }
-        if (block == Material.DIAMOND_BLOCK) {
-            player.sendMessage(ChatColor.AQUA + "YOU ARE WALKING ON DIAMOND BLOCK");
-        }
-        if (block == Material.GRASS_BLOCK) {
-            player.sendMessage(ChatColor.DARK_GREEN + "YOU ARE WALKING ON GRASS BLOCK");
-        }
-        if (block == Material.GOLD_BLOCK) {
-            player.sendMessage(ChatColor.GOLD + "YOU ARE WALKING ON GOLD BLOCK");
-        }
-        if (block == Material.IRON_BLOCK) {
-            player.sendMessage(ChatColor.GRAY + "YOU ARE WALKING ON IRON BLOCK");
-        }
-        if (block == Material.STONE) {
-            player.sendMessage(ChatColor.DARK_GRAY + "YOU ARE WALKING ON STONE BLOCK");
-        }
+                       if(block == Material.NETHERITE_BLOCK) {
+                          player.sendMessage(ChatColor.DARK_PURPLE + "YOU HAVE BECOME THE RICHEST PLAYER ON THE SERVER BECAUSE YOU ARE WALKING ON NETHERITE BLOCK");
+                          }
+       
          }
 }
