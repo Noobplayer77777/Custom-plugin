@@ -1,7 +1,7 @@
 Name: firstplugin
 Version: 1.0
 author: noobplayer77777
-main: com.noobplayer77777,firstplugin.firstplugin
+main: com.noobplayer77777.firstplugin.firstplugin
 api-version: 1.16
 commands:
   heal:
